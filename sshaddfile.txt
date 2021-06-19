@@ -1,0 +1,18 @@
+connect vagrant
+	vagrant up
+	vagrant ssh
+Generate ssh key
+	sudo apt-get update
+	sudo apt-get install git -y
+	cd ~    (Home directory)
+	ssh-keygen 	(id_rsa.pub, id_rsa, ..) 4 key files will be generated 
+	cd ~/.ssh/
+copy the id_rsa.pub(public key) content into github GUI
+	Goto settings -> ssh -> paste the id_rsa_pub key
+clone a repo for ssh
+	git clone ssh@....
+
+
+*ssh connectivity is used for office use - You can give your office username and password 
+					 - This will be one time commit, not like https (you will have to give password for every commit)
+*https connectivity - for personal use also - git init, clone, After configuring with username and password, it will promit for password for every commit
