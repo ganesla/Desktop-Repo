@@ -1,8 +1,11 @@
-SSH connection for Ubuntu
-connect vagrant
+For https connection
+	Create git repo (git init)
+	clone the repo (git clone <https>)
+SSH connection to git 
+connect vagrant (if using else skip)
 	vagrant up
 	vagrant ssh
-Generate ssh key
+Generate ssh key 
 	sudo apt-get update
 	sudo apt-get install git -y
 	cd ~    (Home directory)
