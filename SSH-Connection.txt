@@ -1,3 +1,4 @@
+SSH connection for Ubuntu
 connect vagrant
 	vagrant up
 	vagrant ssh
